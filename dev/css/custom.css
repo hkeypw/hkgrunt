@@ -1,0 +1,415 @@
+/* your styles go here */
+/*переопределяем слайдер */
+.carousel-inner > .item > a > img, .carousel-inner > .item > img{
+  width: 100%;  
+}
+/* basic */
+#content{
+	padding:30px 0px;
+}
+
+#top .contact a{
+	color:#eee;
+    text-decoration: none;
+}
+.heading{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.heading h1, .heading h2, .heading h3{
+	margin-top: 0px;
+	font-size: 18px;
+}
+/* logo */
+.logo-top{
+	background: #fffddc;
+    margin-top:40px;
+}
+.logo{
+	padding: 30px 0px;
+}
+#footer a{
+    color:#fff;
+    font-size: 0.8em;
+}
+/* navigation top */
+.navbar-top{
+    position: relative;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+    -webkit-box-shadow: 0 0 5px #cccccc;
+    box-shadow: 0 0 5px #cccccc;
+    background-color: #ffe6a3;
+}
+.navbar-toggle{
+	color:#000;
+	font-weight: bold;
+}
+.navbar-toggle:hover, .navbar-toggle:focus{
+	color: #000;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #ffe6a3;
+}
+/* buttons */
+/* left side bar */
+h2.panel-title{
+    font-size: 18px;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+	margin-top: 0px;
+}
+.title-left-menu{
+	width: 100%;
+	padding: 0px 0px;
+	color: #555;
+	margin-bottom: 15px;
+}
+.nav-pills{
+    margin-bottom: 25px;
+    padding: 0px 0px;
+}
+.nav-pills > li{
+    margin-bottom: 0px;
+}
+.nav-pills > li > a{
+	font-weight: 600;
+	padding-left: 0px;
+	text-decoration: none;
+}
+.nav-pills > li > a:hover{
+	background: #ffe6a3;
+	color:#555;
+	padding-left: 10px;
+}
+/* series.tpl*/
+ol.nav-series{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.nav-series li{
+    padding: 10px 0px;
+    font-size: 1.1em;
+    margin-left: 0px;
+}
+.nav-series li>a{
+    font-weight: 600;
+}
+/* 404 error */
+.error-container img{
+	width: 100%;
+}
+/* slider */
+.carousel-inner > .item > img{
+	width: 100%;
+}
+.carousel-control{
+	opacity: 0;
+}
+.carousel-control.left {
+    background-image: none;  
+}
+.carousel-control.right {
+    background-image: none;  
+}
+.home-slider-text{
+    height:50px;
+}
+div.home-slider-text[data-position='1']{
+    display:block;
+    position: absolute;
+    left:0px;
+    width: 25%;
+}
+/* news */
+.news-home{
+	margin-top: 30px;
+}
+.news-data{
+    color: #797A7B;
+    font-size: 0.8em;
+}
+.news-col a{
+	font-weight: normal;
+    font-size:0.8em;
+    color: #999;
+}
+.news-col a:hover{
+    color: #555;
+}
+.read-news{
+	width:100%;
+	text-align: right;
+    padding-right: 40px;
+}
+.read-news a{
+   text-decoration:underline;
+   color: #999;
+}
+.read-news a:hover{
+	color:#555;
+}
+.panel-news{
+    margin-bottom: 30px;
+}
+.panel-news h3 a, .panel-news h3 a:hover{
+    text-decoration: none;
+}
+.panel-news h3{
+    margin-top:-10px;
+}
+.panel-news .read-news{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+/* Parthners*/
+.parthners{
+	width: 100%;
+	margin-top: 50px auto 0px;
+	min-height:200px;
+	overflow: hidden;
+	padding: 50px 0px;
+	background: #eeeeee;
+}
+/* Search */
+.input-append{
+	margin-bottom: 30px;
+}	
+textarea, select,
+input[type="text"], input[type="password"],
+input[type="datetime"], input[type="datetime-local"],
+input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"], input[type="email"],
+input[type="url"], input[type="search"], input[type="tel"],
+input[type="color"], .uneditable-input {
+    background-color: #FFF;
+    border: 1px solid #888;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    padding: 5px 6px 6px;
+    font-size: 14px;
+	color: #888;
+	width: 80%;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+textarea:focus,
+input[type="text"]:focus, input[type="password"]:focus,
+input[type="datetime"]:focus, input[type="datetime-local"]:focus,
+input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus,
+input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus,
+input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus,
+input[type="color"]:focus, .uneditable-input:focusы{
+	border-color: #888;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(85, 85, 85, 0.6);
+}
+.search{
+	margin-top: 40px;
+    white-space: nowrap;
+}
+.search .btn-template-main{
+	font-size: 15px;
+   	background: #888;
+	color: #fff;
+    border: none;
+    margin: -1px 0px 0px -5px;
+}
+.search .btn-template-main:hover{
+	background: #555;
+	color: #fff;
+    border: none;
+}
+/* костыль убирающий переход кнопки поиска на следующую линию для определенных разрешений */
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+ form.search input[type="text"]{
+  width:70%;    
+ }
+}
+/* BOOKS */
+.book{
+    margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+.series_title{
+    margin-bottom: 20px;
+}
+.series_title h4{
+    color: #555;
+}
+.cover{
+	text-align: center;
+}
+.cover img{
+	max-width: 100%;
+}
+.book-pt{
+	margin:10px auto;
+}
+.book-pt a{
+    font-size: 0.8em;
+}
+.book-inf{
+	font-weight: bold;
+}
+.book-price{
+	font-size: 18px;
+	font-weight: bold;
+}
+.anons{
+	font-size:0.8em;
+	text-align: justify;
+}
+a.readmore-js-toggle{
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-right: 80px;
+	text-align: right;
+}
+@media only screen and (max-width: 768px){
+	a.readmore-js-toggle{
+		display: none;
+	}
+	.book-inf, .book-i-text, .book-price{
+		text-align: center;
+	}
+}
+/* новинки в каталоге */
+.hot{
+    margin-bottom: 50px;
+    padding: 10px 0px;
+}
+.price{
+    margin: 10px 0px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.price > span{
+    font-size: 0.6em;
+}
+.newbook{
+    position: relative;
+     background: #FFF;
+     max-width: 250px;
+     margin-bottom:10px;
+     -webkit-box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.34);
+    box-shadow: 0px 2px 4px 2px rgba(0,0,0,0.34);
+}
+.newbook > div{
+  padding: 10px;  
+}
+.hot-name{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 270px;
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
+}
+.hot-name h5{
+    margin-top: 80px;
+    color: #555;
+}
+.newbook a{
+    text-decoration: none;
+}
+h4.new-book{
+    color:#555555;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.btn-xs{
+    text-transform: lowercase;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+/*корзина и  оформление заказа */
+.ui-autocomplete-loading {
+      background: #FFF right center no-repeat;
+	}
+a.btn{
+    text-decoration: none;
+}
+textarea.form-control{
+    height: 100px;
+}
+.top5{
+    margin-top: 5px;
+}
+input[name=submit]{
+    margin-top: 10px;
+}
+.pay-more{
+    font-size: 0.8em;
+    margin: 15px 0px 15px;
+}
+.input-comment{
+    font-size: 0.8em;
+    margin-top: -10px;
+}
+.order-info-bottom{
+    background: #eee;
+    margin-top: 15px;
+}
+#sum-delivery, #sum-order, #weight{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#error-sender{
+ display: none;
+ color: #FF0000;
+}
+/* Contacts page*/
+.contacts-send{
+    text-align: center;
+    width: 100%;
+}
+.text-message textarea{
+    width: 80%;
+}
+/* сообщения на страницах */
+.note {
+            position:relative;
+            width:40%;
+            padding:1em 1.5em;
+            margin:2em auto;
+            color:#FFF;
+            background:#97C02F;
+            overflow:hidden;
+            text-align: center;
+        }
+.note:before {
+            content:"";
+            position:absolute;
+            top:0;
+            right:0;
+            border-width:0 16px 16px 0; /* This trick side-steps a webkit bug */
+            border-style:solid;
+            border-color:#fff #fff #658E15 #658E15; /* A bit more verbose to work with .rounded too */
+            background:#658E15; /* For when also applying a border-radius */
+            display:block; width:0; /* Only for Firefox 3.0 damage limitation */
+            /* Optional: shadow */
+            -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+            -moz-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+            box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+}
+.note h2, .note h4, note a, note a:href {color: #fff;}
+.note p {margin:0; color: #fff;}
+.note p + p {margin:1.5em 0 0;}
+.note.green {background:#5cb85c;}
+.note.green:before {border-color:#fff #fff transparent transparent; background:transparent;}
+.note.red {background:#d45d5c;}
+.note.red h2{color: #fff;}
+.note.red:before {border-color:#fff #fff transparent transparent; background:transparent;}
+/* забыли пароль */
+.loginFPButton{
+    margin-top: 15px;
+}
+legend{
+    border-bottom: none;
+}
