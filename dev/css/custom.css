@@ -406,7 +406,7 @@ input[name=submit]{
 .note.red {background:#d45d5c;}
 .note.red h2{color: #fff;}
 .note.red:before {border-color:#fff #fff transparent transparent; background:transparent;}
-/* забыли пароль */
+/* забыли пароль 1*/
 .loginFPButton{
     margin-top: 15px;
 }

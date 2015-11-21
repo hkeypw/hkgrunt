@@ -7,7 +7,7 @@ $(window).scroll(function() {
   if (top < 100) $("#navbar-top").css({top: '0', position: 'relative'});
   else $("#navbar-top").css({top: '40px', position: 'fixed'});
 });
-/* кнопка поиска*/
+/* кнопка поиска 1*/
 $( "#btn-submit" ).click(function() {
   $("#search").submit();
 });

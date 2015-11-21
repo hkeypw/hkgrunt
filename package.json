@@ -2,7 +2,7 @@
   "author": "Arthur",
   "name": "hkgrunt",
   "version": "0.0.1",
-  devDependencies" : {
+  "devDependencies" : {
 		"grunt" : "latest",
 		"grunt-contrib-jshint" : "latest", 
 		"grunt-contrib-concat" : "latest", 

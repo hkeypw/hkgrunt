@@ -13,12 +13,12 @@ module.exports = function (grunt) {
 	    uglify: {  //описываем работу плагина минификации js - uglify.
 	    	options: {
 	    		stripBanners: true,
-	    		banner: '/* <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today("yyyy-mm-dd") %> */\n' //комментарий который будет в минифицированном файле.
+	    		banner: '/* <%= pkg.name %> - v<%= pkg.version %> */\n' //комментарий который будет в минифицированном файле.
 	    	},
 
 	    	build: {
-	    		src: 'dest/build.js',  // какой файл минифицировать
-	    		dest: 'dest/build.min.js' // куда класть файл, который получиться после процесса минификации
+	    		src: 'dest/js/build.js',  // какой файл минифицировать
+	    		dest: 'dest/js/build.min.js' // куда класть файл, который получиться после процесса минификации
 	    	}
 	    },
 
