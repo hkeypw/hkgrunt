@@ -10,4 +10,5 @@
 		"grunt-contrib-cssmin" : "latest", 
 		"grunt-contrib-watch"  : "latest", 
 		"grunt-remove-logging" : "latest" 
+ }
 }
